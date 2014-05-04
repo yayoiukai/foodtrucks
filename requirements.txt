@@ -1,0 +1,12 @@
+Django==1.6.2
+Flask==0.10.1
+Jinja2==2.7.1
+MarkupSafe==0.18
+Werkzeug==0.9.4
+## FIXME: could not find svn URL in dependency_links for this package:
+elementtree==1.2.6-20050316
+gunicorn==18.0
+itsdangerous==0.23
+requests==2.0.1
+simple-salesforce==0.51
+wsgiref==0.1.2
