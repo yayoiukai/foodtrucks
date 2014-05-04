@@ -35,11 +35,11 @@ TEMPLATE_DIRS = (
 SECRET_KEY = 'ssnfi566=vy8nz)wm+em$8p(me7@gmud5v-_xegenc$&tqitg^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-54-186-49-169.us-west-2.compute.amazonaws.com']
 
 
 # Application definition
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'foodtrucks.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ft.db',
+        'NAME': '/var/www/foodtrucks/finder/ft.db',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }

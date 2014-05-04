@@ -1,8 +1,4 @@
 
-
-	// using jQuery
-
-
 function getCookie(name) {
     var cookieValue = null;
     if (document.cookie && document.cookie != '') {
@@ -21,7 +17,6 @@ function getCookie(name) {
 var csrftoken = getCookie('csrftoken');
 
 function displayData(data){
-    console.log("this",data);
     for (var key in data) {
         var truck = data[key];
         var address = truck.address;
@@ -55,7 +50,6 @@ function getTrucks(address, lat, lng){
         "longitude" : lng
       },
     success: function(response) {
-          console.log( "in data:", response );
           placeMarkers(response);
           displayData(response);
     },
@@ -64,7 +58,6 @@ function getTrucks(address, lat, lng){
     }})
   .done(function( data ) {
     if ( console && console.log ) {
-      console.log( "Sample of data:", data );
     }
   });
   return false;
