@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food Truck Locator</title>
+		
+		
+		<script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/lib/underscore-min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/lib/backbone-min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/lib/handlebars.js"></script>
+
+		
+		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" />
+		
+
+
+		{% block head %}
+
+		{% endblock head %}
+	</head>
+	 <body>
+		<div id = "content">
+			<div id = "header">
+				<div id = "site-logo"></div>
+				
+				<div id = "site-title"><h1> Hello Food Trucks</h1></div>
+			</div>
+		
+		{% block content %}
+		Hello Base.html
+		{% endblock %}
+
+		
+		
+		
+	</body>
+	</html>
