@@ -41,8 +41,6 @@ function codeAddress() {
 
 
 function placeMarkers(data){
-  alert("Hello World");
-  console.log(data);
   if (markers.length > 0){
     for (i = 0; i < 10 ; i++){
       markers[i].setMap(null);
@@ -53,9 +51,7 @@ function placeMarkers(data){
 
             var truck = data[key];
             lat = truck.latitude;
-            console.log(lat);
             lon = truck.longitude;
-            console.log(lon);
             var latlng = new google.maps.LatLng(lat,lon);
 
             var pinColor = "FFFF00";
