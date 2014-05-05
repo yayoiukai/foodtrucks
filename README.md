@@ -28,6 +28,11 @@ Link to the Code : https://github.com/yayoiukai/foodtrucks
     </li> 
     <li><h4> Django </h4></li>
     <p> I learned Django for this project. Although this was my first project that I had done with Django, I built several websites with different frameworks, Ruby on Rails, CakePHP, SpringMVC etc. Also, I'd been using python for a while now, so Python was not a new language for me. I decided to choose django because I liked Python and I knew that Admin interface and already built in user functionality was convenient (even though this projecst doesn't require user registration, the Admin interface was great for checking to see that the data process is working correctly). I also understood that I did not need to have the flexibility that Flask would provide for this project. All I needed to was simple MVC. I think I made a good choice. </p></li>
+    <p><h5> Code that I wrote </h5></p>
+    <p>/foodtrucks/dataprocess.py - for data processing </p>
+    <p>/foodtrucks/trucks/*.py - main functionality </p>
+    <p>/foodtrucks/trucks/static/js/*.js - for map and front end functionality </p>
+    <p>/foodtrucks/templates - for html presentation </p>
     <li><h4> Frontend </h4>
     <p>Once I decided to do this foodtruck project for full stack, I looked at several other foodtrucks websites. And I decided that I wanted to have a very simple user interface that was very focused on map, user location, and bare minimum, essential information. (So that it won't clutter the over all look of the website.) I also started learning backbone.js after I read the project spec. I learned that Backbone was a great tool to update the content of the page based on the user interaction without making frequent request to the server. However, since I'd already decided to use django which did all sorting the data based on the GPS coordinate, I realiezd that it would be sufficient just using Javascript, JQuery and Google Map API to have the UI I wanted instead of using backbone. So I decided to focuses on the map. I learned map API for this project as well. I used javascript and JQuery before when I did web developments. </p> 
     </li></ul>
@@ -49,6 +54,8 @@ Link to my public profile : http://www.bayareatechgirl.com/
 <p>
 Link to my resume : http://www.bayareatechgirl.com/aboutme/resume.html
 </p>
+
+
 
 
 
