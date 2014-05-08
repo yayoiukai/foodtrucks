@@ -1,4 +1,4 @@
-<h1> Project : Food Trucks (Full stack) </h1>
+<h1> Project : Food Trucks </h1>
 <p>
 Link to the Application : http://ec2-54-186-49-169.us-west-2.compute.amazonaws.com/
 </p>
